@@ -7,8 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
-        
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="194,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="240,107,0,0" TextWrapping="Wrap" Text="WeSpeak" VerticalAlignment="Top" RenderTransformOrigin="-0.367,0.25"/>
+        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="214,171,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+
+
+
     </Grid>
 </Window>
